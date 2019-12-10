@@ -1,0 +1,52 @@
+# Start of a game
+#
+# Much of this file structure will become more important
+# in later parts of the project.
+#
+
+RULES:
+no capture 
+single jumps
+
+TURN:
+red
+
+BOARD:
+" | b | " | b | " | b | " | b
+---+---+---+---+---+---+---+---
+b | " | b | " | b | " | b | "
+---+---+---+---+---+---+---+---
+" | b | " | b | " | b | " | b
+---+---+---+---+---+---+---+---
+. | " | . | " | . | " | . | "
+---+---+---+---+---+---+---+---
+" | . | " | . | " | . | " | .
+---+---+---+---+---+---+---+---
+r | " | r | " | r | " | r | "
+---+---+---+---+---+---+---+---
+" | r | " | r | " | r | " | r
+---+---+---+---+---+---+---+---
+r | " | r | " | r | " | r | "
+
+MOVES:
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
+a3->b4 d6->e5 b4->c5 b6->d4 e3->c5

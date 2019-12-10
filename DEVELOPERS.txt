@@ -1,0 +1,40 @@
+Author: Eli Musgrove
+
+Functions in info.c:
+    * int main() - standard main method that calls processFile()
+
+Functions in processfile.h: (Implementations in processfile.c)
+	* void skipForward()- processing comments, spaces, newlines, tabs, etc...
+    * int processKeyword()- reads file section titles and calls helper functions to read each section
+    * int processRules()- processes rules section and reads into global config array
+    * int processTurn()- processes turn section and reads into global config array
+    * int processBoard()- processes board and reads piece counts into global array
+    * int processMoves()- processes moves and confirms the source and destination are valid checkerboard squares
+    * int processFile()- main function to handle file reading, uses numerous helper functions
+
+Functions in change.c:
+	* int main() - Uses updategameboard.h and processfile.h to process the input file and gameboard after given moves
+
+Functions in updategameboard.h: (Implementations in updategameboard.c)
+	* int updateGameboard()- Updates global gameboard array using global moves array, both created by running processfile() in processfile.h, also 								verifies the input moves based on standard checkers rules
+	* void exchange()- Outputs a file in the exchange format given the global arrays gameboard and moves
+	* void human()- Outputs a file in the human format given the global arrays gameboard and moves
+
+Functions in rankmoves.c:
+	* int main() - Uses parsemoves.h to rank the moves according to the given scoring function.
+
+Functions in parsemoves.h: (Implimentations in parsemoves.c)
+	* void intascii() - Outputs a string representation of the board square given the array indices of the 2d array
+	* int scoreBoard() - Return the score for the given team on the given gameboard
+	* void updateGameboard() - Updates the given gameboard with the given array of moves that are confirmed valid already
+	* int scoreMovesRec() - Run recursive calls to calculate the score for a given gameboard assuming the opponent moves perfectly
+
+Functions in edit.c:
+	* int main() - Initializes termbox and displays gameboard, moves, etc...
+
+Functions in editFunc.h:
+	* void updateBoard() - Runs a confirmed valid move on the given gameboard
+	* void displaySquare() - Displays a single square of the gameboard
+	* void displayRow() - Displays a row of the gameboard
+	* void displayBoard() - Uses helper functions to display the gameboard
+	* void displayMoves() - Displays the moves in the desired format from a specified starting move
