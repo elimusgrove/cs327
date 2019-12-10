@@ -30,23 +30,3 @@ r | " | r | " | r | " | r | "
 
 MOVES:
 a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
-a3->b4 d6->e5 b4->c5 b6->d4 e3->c5
