@@ -177,7 +177,7 @@ void displayMoves(unsigned int* moves, int startingMove, int numMoves, int illeg
  		}
  		else {
  			/* Moves contain an invalid */
- 			if (illegalMove != -1) {
+ 			if (illegalMove) {
  				/* Display invalid move */
  				if (i == illegalMove * 4) {
  					tb_change_cell(start, row, a, TB_RED, TB_DEFAULT);
