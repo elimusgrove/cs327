@@ -217,7 +217,6 @@ int main(int argc, char** argv) {
 			}
 			free(newBoard);
    			tb_shutdown();
-   			printf("%s %d %s %d %s %d\n", "MOVE_NUM: ", MOVE_NUM, ", initConfig[0]: ", initConfig[0], ", illegalMove[0]: ", illegalMove[0]);
    			return 0;
   		}
   		/* Move up */
